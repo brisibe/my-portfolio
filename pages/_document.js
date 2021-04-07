@@ -7,17 +7,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/favicon.ico" />
-          <meta
-            name="description"
-            content="A fullstack software developer portfolio built on Next.js"
-          ></meta>
-          <meta
-            name="viewport"
-            content="width=device-width,initial-scale=1.0"
-          ></meta>
-          <title>Brisibe's Software Developer Portfolio</title>
-
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}

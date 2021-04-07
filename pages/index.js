@@ -2,27 +2,12 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { Nav } from "../components/Navbar/Nav";
 import { ProjectCard } from "../components/ProjectCard/ProjectCard";
+import { Page } from "../components/Layout/Page";
 
 export default function Home() {
   return (
-    <div className={styles.wrapper}>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="A fullstack software developer portfolio built on Next.js"
-        ></meta>
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1.0"
-        ></meta>
-        <title>Brisibe's Software Developer Portfolio</title>
-      </Head>
-
-      <Nav />
-
+    <Page>
       <div className={styles.content_wrapper}>
         <div className={styles.hero_section}>
           <div className={styles.hero_section_info}>
@@ -136,6 +121,6 @@ export default function Home() {
           </a>
         </p>
       </footer>
-    </div>
+    </Page>
   );
 }

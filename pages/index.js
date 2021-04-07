@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Head from "next/head";
 import Image from "next/image";
 import { ProjectCard } from "../components/ProjectCard/ProjectCard";
 import { Nav } from "../Navbar/Nav";

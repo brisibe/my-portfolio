@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import { ProjectCard } from "../components/ProjectCard/ProjectCard";
-import { Nav } from "../Navbar/Nav";
-import styles from "../../styles/Home.module.css";
+import { Nav } from "../components/Navbar/Nav";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (

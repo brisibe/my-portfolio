@@ -2,9 +2,9 @@ export const projectDetails = [
   {
     name: "Brisibe.dev",
     imageUrl: "#",
-    SourceCode: "#",
+    SourceCode: "https://github.com/brisibe/my-portfolio",
     url: "#",
-    details: "just a random message to stand as place holder text",
+    details: "My portfolio website...",
     tags: ["Next.js", "Reactjs", "css"],
   },
   // {

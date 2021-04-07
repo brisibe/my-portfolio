@@ -27,10 +27,9 @@ export default function Home() {
         <div className={styles.hero_section}>
           <div className={styles.hero_section_info}>
             <h1>
-              Hi, I'm <b>Joseph</b>,<br /> I build jdjk f sfkj fsnnvn ksjd hsj
-              sfkdj kl kjf kjskhhiow skjdkjfoijfiojfojfkjkvn jkdv{" "}
+              Hi, I'm <b>Joseph</b>,<br /> A fullstack developer based in Lagos,
+              Nigeria. I design and build web solutions that are user friendly.
             </h1>
-            {/* <span className={styles.span_fullstack}>Fullstack developer</span> */}
 
             <div className={styles.social_section}>
               <div className={styles.social_icon}>

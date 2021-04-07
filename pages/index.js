@@ -1,65 +1,142 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import { Nav } from "../components/Navbar/Nav";
+import { ProjectCard } from "../components/ProjectCard/ProjectCard";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.wrapper}>
       <Head>
-        <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="A fullstack software developer portfolio built on Next.js"
+        ></meta>
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1.0"
+        ></meta>
+        <title>Brisibe's Software Developer Portfolio</title>
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <Nav />
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      <div className={styles.content_wrapper}>
+        <div className={styles.hero_section}>
+          <div className={styles.hero_section_info}>
+            <h1>
+              Hi, I'm <b>Joseph</b>,<br /> I build jdjk f sfkj fsnnvn ksjd hsj
+              sfkdj kl kjf kjskhhiow skjdkjfoijfiojfojfkjkvn jkdv{" "}
+            </h1>
+            {/* <span className={styles.span_fullstack}>Fullstack developer</span> */}
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+            <div className={styles.social_section}>
+              <div className={styles.social_icon}>
+                <a
+                  href="https://github.com/brisibe"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src="/github.svg" alt="github" />
+                </a>
+              </div>
+              <div className={styles.social_icon}>
+                <a
+                  href="https://www.linkedin.com/in/joseph-brisibe-416a03171/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src="/linkedin.svg" alt="github" />
+                </a>
+              </div>
+              <div className={styles.social_icon}>
+                <a
+                  href="https://twitter.com/callmijesse"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src="/twitter.svg" alt="github" />
+                </a>
+              </div>
+              <div className={styles.social_icon}>
+                <a href="mailto:brisibejoseph1@gmail.com">
+                  <img src="/email.svg" alt="github" />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
+
+        <div className={styles.project_section} id="projects">
+          <h2>Projects</h2>
+          <ProjectCard />
+        </div>
+
+        <div className={styles.about_wrapper}>
+          <h3>About</h3>
+          <div className={styles.about_info}>
+            <div className={styles.about_image_wrapper}>
+              <i className={`${styles.image_icons} ${styles.triangle}`}>
+                <img src="/triangle.svg" alt="triangle" />{" "}
+              </i>
+              <i className={`${styles.image_icons} ${styles.orange}`}>
+                <img src="/orange-circle.svg" alt="circle" />
+              </i>
+              <i className={`${styles.image_icons} ${styles.blue_circle}`}>
+                <img src="/blue-circle.svg" alt="circle" />
+              </i>
+              <i className={`${styles.image_icons} ${styles.blue_triangle}`}>
+                <img
+                  className={styles.image}
+                  src="/blue-triangle.svg"
+                  alt="triangle"
+                />
+              </i>
+
+              <div className={styles.about_image}>
+                {" "}
+                <Image
+                  src="/img.jpg"
+                  width={280}
+                  height={280}
+                  quality={100}
+                  alt="A portrait image of Joseph Brisibe"
+                />
+              </div>
+            </div>
+            <div className={styles.about_details}>
+              <p>
+                I am just trying to make it in this life, if we sleep with our
+                eyes closed at night, do we wake up with. we off ev io ei
+                lksjkjf fjioefj fj dkfj kjsfj fsjhgjfh jf njf jfjk jfhfj ksfjhf
+                js. fjioefj fj dkfj kjsfj fsjhgjfh jf njf jfjk jfhfj ksfjhf jsh
+                jfhjkhsfhj k j ofjoijreio
+                <br />
+                jiorr rirjfodv iremio eom evio oeo ev io ei lksjkjf fjioefj fj
+                dkfj kjsfj fsjhg. vjokrkjoirokf mvoe eij iorr rirjfodv iremio
+                eom evio oeo ev io ei lksjkjf fjioefj fj dkfj kjsfj fsjhgjfh jf
+                njf jfjk jfhfj ksfjhf jsh jfhjkhsfhj k j ofjoijreio jfka km
+                fjvva ivjir vjokrkjoirokf mvoe eij iorr.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        <p>
+          Made with &#10084;&#65039; by{" "}
+          <a
+            href="https://twitter.com/callmijesse"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Joseph Brisibe
+          </a>
+        </p>
       </footer>
     </div>
-  )
+  );
 }

@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Head from "next/head";
 import Image from "next/image";
 import { ProjectCard } from "../components/ProjectCard/ProjectCard";
-import { Nav } from "../Navbar/Nav";
-import styles from "../../styles/Home.module.css";
+import { Nav } from "../components/Navbar/Nav";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -27,8 +26,9 @@ export default function Home() {
         <div className={styles.hero_section}>
           <div className={styles.hero_section_info}>
             <h1>
-              Hi, I'm <b>Joseph</b>,<br /> A fullstack developer based in Lagos,
+              Hi, I'm <b>Joseph</b>.<br /> A fullstack developer based in Lagos,
               Nigeria. I design and build web solutions that are user friendly.
+              &#128578;
             </h1>
 
             <div className={styles.social_section}>
@@ -107,17 +107,34 @@ export default function Home() {
             </div>
             <div className={styles.about_details}>
               <p>
-                I am just trying to make it in this life, if we sleep with our
-                eyes closed at night, do we wake up with. we off ev io ei
-                lksjkjf fjioefj fj dkfj kjsfj fsjhgjfh jf njf jfjk jfhfj ksfjhf
-                js. fjioefj fj dkfj kjsfj fsjhgjfh jf njf jfjk jfhfj ksfjhf jsh
-                jfhjkhsfhj k j ofjoijreio
+                I graduated with a computer engineering degree from Houdegbe
+                North American University. Been coding for more than 2years now,
+                within this period i've worked with different languages and
+                frameworks like{" "}
+                <b>Javascript, C#, Reactjs, NodeJs, and Asp.Net Core.</b>
                 <br />
-                jiorr rirjfodv iremio eom evio oeo ev io ei lksjkjf fjioefj fj
-                dkfj kjsfj fsjhg. vjokrkjoirokf mvoe eij iorr rirjfodv iremio
-                eom evio oeo ev io ei lksjkjf fjioefj fj dkfj kjsfj fsjhgjfh jf
-                njf jfjk jfhfj ksfjhf jsh jfhjkhsfhj k j ofjoijreio jfka km
-                fjvva ivjir vjokrkjoirokf mvoe eij iorr.
+                When I'm not coding you'll find me on the basketball court or on
+                the chess board totally anihilating my opponents.&#129323;{" "}
+                <br />I sometimes write about tech and other stuffs on{" "}
+                <a
+                  href="https://josephbrisibe.hashnode.dev"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className={styles.blog}
+                >
+                  Blog
+                </a>
+                <br />
+                Got a gig for me? or you just want to chill and talk about tech
+                and basketball lol, you can shoot me a DM on{" "}
+                <a
+                  href="https://twitter.com/callmijesse"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className={styles.blog}
+                >
+                  Twitter{" "}
+                </a>
               </p>
             </div>
           </div>

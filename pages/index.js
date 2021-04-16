@@ -24,8 +24,8 @@ export default function Home() {
 
       <div className={styles.content_wrapper}>
         {/* box bg animation */}
-        <div class={styles.area}>
-          <ul class={styles.circles}>
+        <div className={styles.area}>
+          <ul className={styles.circles}>
             <li></li>
             <li></li>
             <li></li>

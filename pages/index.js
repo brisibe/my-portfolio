@@ -23,6 +23,21 @@ export default function Home() {
       <Nav />
 
       <div className={styles.content_wrapper}>
+        {/* box bg animation */}
+        <div class={styles.area}>
+          <ul class={styles.circles}>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
         <div className={styles.hero_section}>
           <div className={styles.hero_section_info}>
             <h1>
@@ -74,7 +89,7 @@ export default function Home() {
         </div>
 
         <div className={styles.about_wrapper}>
-          <h3>About</h3>
+          <h3>About Me</h3>
           <div className={styles.about_info}>
             <div className={styles.about_image_wrapper}>
               <i className={`${styles.image_icons} ${styles.triangle}`}>
@@ -107,14 +122,12 @@ export default function Home() {
             </div>
             <div className={styles.about_details}>
               <p>
-                I graduated with a computer engineering degree from Houdegbe
-                North American University. Been coding for more than 2years now,
-                within this period i've worked with different languages and
-                frameworks like{" "}
+                Been coding for more than 2years now, within this period i've
+                worked with different languages and frameworks like{" "}
                 <b>Javascript, C#, Reactjs, NodeJs, and Asp.Net Core.</b>
                 <br />
                 When I'm not coding you'll find me on the basketball court or on
-                the chess board totally anihilating my opponents.&#129323;{" "}
+                the chess board totally annihilating my opponents.&#129323;{" "}
                 <br />I sometimes write about tech and other stuffs on{" "}
                 <a
                   href="https://josephbrisibe.hashnode.dev"
@@ -126,7 +139,7 @@ export default function Home() {
                 </a>
                 <br />
                 Got a gig for me? or you just want to chill and talk about tech
-                and basketball lol, you can shoot me a DM on{" "}
+                or basketball lol, you can shoot me a DM on{" "}
                 <a
                   href="https://twitter.com/callmijesse"
                   target="_blank"
@@ -135,6 +148,7 @@ export default function Home() {
                 >
                   Twitter{" "}
                 </a>
+                , I reply in seconds... wanna bet? :)
               </p>
             </div>
           </div>

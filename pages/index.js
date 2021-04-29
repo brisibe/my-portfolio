@@ -74,11 +74,11 @@ export default function Home() {
                   <img src="/twitter.svg" alt="github" />
                 </a>
               </div>
-              <div className={styles.social_icon}>
+              {/* <div className={styles.social_icon}>
                 <a href="mailto:brisibejoseph1@gmail.com">
                   <img src="/email.svg" alt="github" />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -97,6 +97,7 @@ export default function Home() {
                   viewBox="0 0 256 228"
                   version="1.1"
                   preserveAspectRatio="xMidYMid"
+                  className={styles.react}
                 >
                   <g>
                     <path
@@ -179,25 +180,20 @@ export default function Home() {
               </i>
 
               <div className={styles.about_image}>
-                {" "}
-                <Image
-                  src="/img.jpg"
-                  width={280}
-                  height={280}
-                  quality={100}
-                  alt="A portrait image of Joseph Brisibe"
-                />
+                <img src="/img.jpg" className={styles.about_photo} />
               </div>
             </div>
             <div className={styles.about_details}>
               <p>
                 Been coding for more than 2years now, within this period i've
                 worked with different languages and frameworks like{" "}
-                <b>Javascript, C#, Reactjs, NodeJs, and Asp.Net Core.</b>
+                <b className={styles.skills}>
+                  Javascript, C#, Reactjs, NodeJs, and Asp.Net Core.
+                </b>
                 <br />
                 When I'm not coding you'll find me on the basketball court or on
                 the chess board totally annihilating my opponents.&#129323;{" "}
-                <br />I sometimes write about tech and other stuffs on{" "}
+                <br />I sometimes write about tech stuffs{" "}
                 <a
                   href="https://josephbrisibe.hashnode.dev"
                   target="_blank"
@@ -226,7 +222,8 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <p>
-          Made with &#10084;&#65039; by{" "}
+          &copy;
+          {new Date().getFullYear()}{" "}
           <a
             href="https://twitter.com/callmijesse"
             target="_blank"

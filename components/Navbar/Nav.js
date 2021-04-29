@@ -40,7 +40,13 @@ export const Nav = () => {
               <a href="#">Resume</a>
             </li>
             <li className={styles.link} onClick={closeMobileMenu}>
-              <a href="#">Blog</a>
+              <a
+                href="https://josephbrisibe.hashnode.dev"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Blog
+              </a>
             </li>
           </ul>
         </div>

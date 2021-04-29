@@ -30,7 +30,7 @@ export const ProjectCard = () => {
                 </div>
               ))}
             </div>
-            <a href={data.SourceCode}>Source code</a>
+            {data.isPublic && <a href={data.SourceCode}>Source code</a>}
           </div>
         );
       })}

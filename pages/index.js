@@ -92,7 +92,7 @@ export default function Home() {
           <ProjectCard />
         </div>
 
-        <div className={styles.about_wrapper}>
+        <div className={styles.about_wrapper} id="about">
           <h3>About Me</h3>
           <div className={styles.about_info}>
             <div className={styles.about_image_wrapper}>

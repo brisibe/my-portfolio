@@ -37,7 +37,7 @@ export const Nav = () => {
               </a>
             </li>
             <li className={styles.link} onClick={closeMobileMenu}>
-              <a href="#">Resume</a>
+              <a href="#about">About</a>
             </li>
             <li className={styles.link} onClick={closeMobileMenu}>
               <a

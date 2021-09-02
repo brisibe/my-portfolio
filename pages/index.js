@@ -3,8 +3,13 @@ import Image from "next/image";
 import { ProjectCard } from "../components/ProjectCard/ProjectCard";
 import { Nav } from "../components/Navbar/Nav";
 import styles from "../styles/Home.module.css";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    window.history.scrollRestoration = "manual";
+  }, []);
+
   return (
     <div className={styles.wrapper}>
       <Head>
@@ -42,8 +47,7 @@ export default function Home() {
           <div className={styles.hero_section_info}>
             <h1>
               Hi, I'm <b>Joseph</b>.<br /> A fullstack developer based in Lagos,
-              Nigeria. I design and build web solutions that are user friendly.
-              &#128578;
+              Nigeria. I design and build for the web &#128578;
             </h1>
 
             <div className={styles.social_section}>
@@ -185,26 +189,16 @@ export default function Home() {
             </div>
             <div className={styles.about_details}>
               <p>
-                Been coding for more than 2years now, within this period i've
-                worked with different languages and frameworks like{" "}
+                Over the years I have worked with languages and frameworks that
+                include:
+                <br />
                 <b className={styles.skills}>
-                  Javascript, C#, Reactjs, NodeJs, and Asp.Net Core.
+                  Reactjs, Asp.NetCore, SpringBoot and NodeJs
                 </b>
                 <br />
-                When I'm not coding you'll find me on the basketball court or on
-                the chess board totally annihilating my opponents.&#129323;{" "}
-                <br />I sometimes write about tech stuffs{" "}
-                <a
-                  href="https://josephbrisibe.hashnode.dev"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className={styles.blog}
-                >
-                  Blog
-                </a>
-                <br />
-                Got a gig for me? or you just want to chill and talk about tech
-                or basketball lol, you can shoot me a DM on{" "}
+                Are you ready to turn that big Idea of yours into an awesome
+                product that people actually use? Then get in touch lets get to
+                work. You can find me on{" "}
                 <a
                   href="https://twitter.com/callmijesse"
                   target="_blank"
@@ -213,7 +207,16 @@ export default function Home() {
                 >
                   Twitter{" "}
                 </a>
-                , I reply in seconds... wanna bet? :)
+                <br />I sometimes talk about tech{" "}
+                <a
+                  href="https://josephbrisibe.hashnode.dev"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className={styles.blog}
+                >
+                  Here.
+                </a>
+                <br />
               </p>
             </div>
           </div>

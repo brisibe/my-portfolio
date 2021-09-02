@@ -10,9 +10,12 @@ export const ProjectCard = () => {
           <div className={styles.project} key={index}>
             {/* TODO:replace with image */}
 
-            <div className={styles.project_image}></div>
+            <img className={styles.project_image} src={data.imageUrl} />
             <div className={styles.project_header}>
-              <h3 className={styles.project_name}>{data.name}</h3>{" "}
+              <a href={data.url}>
+                {" "}
+                <h3 className={styles.project_name}>{data.name}</h3>
+              </a>{" "}
               <div className={styles.live_link}>
                 <p>
                   <a href={data.url}>Live</a>

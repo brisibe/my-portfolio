@@ -37,16 +37,12 @@ export const Nav = () => {
               </a>
             </li>
             <li className={styles.link} onClick={closeMobileMenu}>
-              <a href="#about">About</a>
+              <a href="https://drive.google.com/file/d/18Dz-ICfXQR33mskQvCTS-ZmfiZPbUMbu/view?usp=sharing">
+                Resume
+              </a>
             </li>
             <li className={styles.link} onClick={closeMobileMenu}>
-              <a
-                href="https://josephbrisibe.hashnode.dev"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Blog
-              </a>
+              <a href="#about">About</a>
             </li>
           </ul>
         </div>

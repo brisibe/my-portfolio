@@ -8,7 +8,6 @@ export const ProjectCard = () => {
       {projectDetails.map((data, index) => {
         return (
           <div className={styles.project} key={index}>
-            {/* TODO:replace with image */}
 
             <img className={styles.project_image} src={data.imageUrl} />
             <div className={styles.project_header}>

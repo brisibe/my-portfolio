@@ -192,9 +192,7 @@ export default function Home() {
                 Over the years I have worked with languages and frameworks that
                 include:
                 <br />
-                <b className={styles.skills}>
-                  Reactjs, Asp.NetCore, SpringBoot and NodeJs
-                </b>
+                <b className={styles.skills}>Reactjs, Asp.NetCore and NodeJs</b>
                 <br />
                 Are you ready to turn that big Idea of yours into an awesome
                 product that people actually use? Then get in touch lets get to

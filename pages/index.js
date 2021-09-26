@@ -78,11 +78,11 @@ export default function Home() {
                   <img src="/twitter.svg" alt="github" />
                 </a>
               </div>
-              {/* <div className={styles.social_icon}>
-                <a href="mailto:brisibejoseph1@gmail.com">
-                  <img src="/email.svg" alt="github" />
+              <div className={styles.social_resume}>
+                <a href="https://drive.google.com/file/d/1ABnbh3H3VcJdffKfirrHiL9YR9hS4yK0/view?usp=sharing">
+                  Resume
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

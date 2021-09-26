@@ -267,6 +267,10 @@
 
   opacity: 0.9;
 }
+.social_resume {
+  color: #ac00ac;
+  font-weight: 600;
+}
 
 /* Larger screens */
 @media (min-width: 501px) {
@@ -304,6 +308,9 @@
 
   .social_section {
     width: 300px;
+  }
+  .social_resume {
+    font-size: 18px;
   }
 }
 

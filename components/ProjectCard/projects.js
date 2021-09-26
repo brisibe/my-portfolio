@@ -4,8 +4,8 @@ export const projectDetails = [
     imageUrl: "/crypto.svg",
     SourceCode: "https://github.com/brisibe/live-crypto",
     url: "https://cryptoo.vercel.app",
-    details: "A crypto Tracker",
-    tags: ["React", "Styled-Components"],
+    details: "A live cryptocurrency price Tracker.",
+    tags: ["React", "Styled-Components", "Charts.js"],
     isPublic: true,
   },
   {

@@ -1,5 +1,14 @@
 export const projectDetails = [
   {
+    name: "Task Tracker",
+    imageUrl: "/tasktracker.svg",
+    SourceCode: "https://github.com/brisibe/task-tracker",
+    url: "https://tasktrackerr.vercel.app",
+    details: "A task tracker that help you stay productive",
+    tags: ["React"],
+    isPublic: true,
+  },
+  {
     name: "Cryptoo",
     imageUrl: "/crypto.svg",
     SourceCode: "https://github.com/brisibe/live-crypto",

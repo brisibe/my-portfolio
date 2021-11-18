@@ -79,7 +79,7 @@ export default function Home() {
                 </a>
               </div>
               <div className={styles.social_resume}>
-                <a href="https://drive.google.com/file/d/1ABnbh3H3VcJdffKfirrHiL9YR9hS4yK0/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1OWKLPlgai35mpgNOOncaeaUHLhMf-Kq7/view?usp=drivesdk">
                   Resume
                 </a>
               </div>

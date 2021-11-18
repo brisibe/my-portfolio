@@ -37,7 +37,7 @@ export const Nav = () => {
               </a>
             </li>
             <li className={styles.link} onClick={closeMobileMenu}>
-              <a href="hhttps://drive.google.com/file/d/1ABnbh3H3VcJdffKfirrHiL9YR9hS4yK0/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1OWKLPlgai35mpgNOOncaeaUHLhMf-Kq7/view?usp=drivesdk">
                 Resume
               </a>
             </li>

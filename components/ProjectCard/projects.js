@@ -1,5 +1,14 @@
 export const projectDetails = [
   {
+     name: "Get A Job",
+    imageUrl: "/getajob.svg",
+    SourceCode: "https://github.com/brisibe/conclase-assessment",
+    url: "https://getajob-eight.vercel.app",
+    details: "A responsive landing page translated from a design",
+    tags: ["React", "Styled-component"],
+    isPublic: true,
+  },
+  {
     name: "Task Tracker",
     imageUrl: "/tasktracker.svg",
     SourceCode: "https://github.com/brisibe/task-tracker",

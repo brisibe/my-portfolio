@@ -1,13 +1,5 @@
 export const projectDetails = [
-  {
-     name: "Get A Job",
-    imageUrl: "/getajob.svg",
-    SourceCode: "https://github.com/brisibe/conclase-assessment",
-    url: "https://getajob-eight.vercel.app",
-    details: "A responsive landing page translated from a design",
-    tags: ["React", "Styled-component"],
-    isPublic: true,
-  },
+ 
   {
     name: "Task Tracker",
     imageUrl: "/tasktracker.svg",
@@ -33,6 +25,15 @@ export const projectDetails = [
     url: "https://shopbeta.vercel.app",
     details: "The most affordable online shopping mall...",
     tags: [".NetCore", "Azure", "Reactjs", "Redux", "Mssql"],
+    isPublic: true,
+  },
+   {
+     name: "Get A Job",
+    imageUrl: "/getajob.svg",
+    SourceCode: "https://github.com/brisibe/conclase-assessment",
+    url: "https://getajob-eight.vercel.app",
+    details: "A responsive landing page translated from a design",
+    tags: ["React", "Styled-component"],
     isPublic: true,
   },
   {

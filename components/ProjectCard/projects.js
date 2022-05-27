@@ -1,4 +1,13 @@
 export const projectDetails = [
+    {
+    name: "CucumisLush",
+    imageUrl: "/lush.svg",
+    SourceCode: "https://github.com/brisibe",
+    url: "http://174.138.0.201:3300/",
+    details: "A online store for fabricated goods and service booking",
+    tags: ["React", "Redux", "Cloudinary", "Nodejs", "Bootstrap"],
+    isPublic: true,
+  },
  
   {
     name: "Task Tracker",

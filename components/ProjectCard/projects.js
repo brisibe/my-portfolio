@@ -1,23 +1,14 @@
 export const projectDetails = [
-    {
+  {
     name: "CucumisLush",
     imageUrl: "/lush.svg",
     SourceCode: "https://github.com/brisibe",
     url: "http://174.138.0.201:3300/",
     details: "An online store for fabricated goods and service booking",
-    tags: ["React", "Redux", "Cloudinary", "Nodejs", "Bootstrap"],
+    tags: ["React", "Redux", "Cloudinary", "Nodejs"],
     isPublic: true,
   },
- 
-  {
-    name: "Task Tracker",
-    imageUrl: "/tasktracker.svg",
-    SourceCode: "https://github.com/brisibe/task-tracker",
-    url: "https://tasktrackerr.vercel.app",
-    details: "A task tracker that help you stay productive",
-    tags: ["React"],
-    isPublic: true,
-  },
+
   {
     name: "Cryptoo",
     imageUrl: "/crypto.svg",
@@ -25,6 +16,24 @@ export const projectDetails = [
     url: "https://cryptoo.vercel.app",
     details: "A live cryptocurrency price Tracker.",
     tags: ["React", "Styled-Components", "Charts.js"],
+    isPublic: true,
+  },
+  {
+    name: "Get A Job",
+    imageUrl: "/getajob.svg",
+    SourceCode: "https://github.com/brisibe/conclase-assessment",
+    url: "https://getajob-eight.vercel.app",
+    details: "A responsive landing page",
+    tags: ["React", "Styled-component"],
+    isPublic: true,
+  },
+  {
+    name: "Task Tracker",
+    imageUrl: "/tasktracker.svg",
+    SourceCode: "https://github.com/brisibe/task-tracker",
+    url: "https://tasktrackerr.vercel.app",
+    details: "A task tracker that help you stay productive",
+    tags: ["React"],
     isPublic: true,
   },
   {
@@ -36,15 +45,7 @@ export const projectDetails = [
     tags: [".NetCore", "Azure", "Reactjs", "Redux", "Mssql"],
     isPublic: true,
   },
-   {
-     name: "Get A Job",
-    imageUrl: "/getajob.svg",
-    SourceCode: "https://github.com/brisibe/conclase-assessment",
-    url: "https://getajob-eight.vercel.app",
-    details: "A responsive landing page translated from a design",
-    tags: ["React", "Styled-component"],
-    isPublic: true,
-  },
+
   {
     name: "Brisibe.dev",
     imageUrl: "/brisibe.svg",

@@ -8,7 +8,6 @@ export const ProjectCard = () => {
       {projectDetails.map((data, index) => {
         return (
           <div className={styles.project} key={index}>
-
             <img className={styles.project_image} src={data.imageUrl} />
             <div className={styles.project_header}>
               <a href={data.url}>
@@ -17,11 +16,8 @@ export const ProjectCard = () => {
               </a>{" "}
               <div className={styles.live_link}>
                 <p>
-                  <a href={data.url}>Live</a>
+                  <a href={data.url}> Link</a>
                 </p>{" "}
-                {/* <i>
-                  <img src="/arrow.svg" />
-                </i> */}
               </div>
             </div>
             <p>{data.details}</p>

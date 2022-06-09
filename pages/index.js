@@ -108,9 +108,8 @@ export default function Home() {
                 Currently building cool stuffs at{" "}
                 <b className={styles.skills}>Conclase</b>.{/* <br /> */}
                 Part of the team responsible for performance, security and
-                scaling client-side products. Building{" "}
-                <b style={{ color: "#4C9AFF" }}>@TrackNine, @CucumisLush</b> and
-                more...
+                scaling client-side products. 
+//                
                 <br />
                 <p>
                   Studied Computer Engineering at Houdegbe North American
